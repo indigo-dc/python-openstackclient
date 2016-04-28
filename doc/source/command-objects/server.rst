@@ -112,6 +112,7 @@ Create a new server
         [--config-drive <value>|True ]
         [--min <count>]
         [--max <count>]
+        [--preemtible]
         [--wait]
         <server-name>
 
@@ -182,6 +183,10 @@ Create a new server
 .. option:: --max <count>
 
     Maximum number of servers to launch (default=1)
+
+.. option:: --preemptible
+
+    Indicates that the requested instance is preemptible
 
 .. option:: --wait
 
